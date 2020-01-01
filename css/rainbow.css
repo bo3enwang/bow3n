@@ -1,0 +1,73 @@
+.rainbow {
+  letter-spacing: 0.2rem;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+.rainbow span {
+  animation: rainbow 50s alternate infinite forwards;
+}
+@keyframes rainbow {
+  0% {
+    color: #998fef;
+  }
+  5% {
+    color: #8fefda;
+  }
+  10% {
+    color: #ef8fdf;
+  }
+  15% {
+    color: #efd98f;
+  }
+  20% {
+    color: #8fefcc;
+  }
+  25% {
+    color: #8fefd7;
+  }
+  30% {
+    color: #aeef8f;
+  }
+  35% {
+    color: #ef8fac;
+  }
+  40% {
+    color: #ef8fb9;
+  }
+  45% {
+    color: #acef8f;
+  }
+  50% {
+    color: #a1ef8f;
+  }
+  55% {
+    color: #8fe1ef;
+  }
+  60% {
+    color: #a3ef8f;
+  }
+  65% {
+    color: #8fefe6;
+  }
+  70% {
+    color: #ef8f8f;
+  }
+  75% {
+    color: #9fef8f;
+  }
+  80% {
+    color: #8fb7ef;
+  }
+  85% {
+    color: #c9ef8f;
+  }
+  90% {
+    color: #8fefc7;
+  }
+  95% {
+    color: #8fe1ef;
+  }
+  100% {
+    color: #d7ef8f;
+  }
+}
