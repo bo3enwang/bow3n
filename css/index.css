@@ -13,7 +13,7 @@ body {
 }
 
 .content {
-  transform: translate(0%, 100%);
+  padding-top: 20vh;
 }
 
 .logo {
@@ -52,6 +52,11 @@ body {
 
 .nav-item {
   margin: 0 35px;
+}
+
+.nav-item:hover {
+  transition: transform 0.2s, opacity 0.3s;
+  transform: scale(1.3);
 }
 .nav-item img {
   width: 50px;
